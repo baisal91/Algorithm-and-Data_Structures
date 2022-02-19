@@ -10,7 +10,7 @@ public class FibonacciNumber {
     public static void main(String[] args) {
 
 
-        int n = 10;
+        int n = 4;
         dp = new long[n+1];
 
         //System.out.println(fibonacci(9999));
