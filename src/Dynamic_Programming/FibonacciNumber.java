@@ -13,7 +13,7 @@ public class FibonacciNumber {
         int n = 4;
         dp = new long[n+1];
 
-        //System.out.println(fibonacci(9999));
+        System.out.println(fibonacci(6));
 
         //To print out nth fibonacci number
         System.out.println(fibonacciDP(n));
