@@ -7,7 +7,7 @@ public class Generic <T> {
     Generic(T genVar){
         this.genVar = genVar;
     }
-    public void printGen(){
+    protected void printGen(){
         System.out.println(genVar);
     }
 
