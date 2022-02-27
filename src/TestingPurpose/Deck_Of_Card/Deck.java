@@ -26,6 +26,9 @@ public class Deck {
         for(Card i: deck_of_card){
             System.out.print(i + "  ");
         }
+        for(Card i: shuufled_deck_of_card){
+            System.out.print(i + "  ");
+        }
     }
 
     public void shuffleOne(){
@@ -34,7 +37,7 @@ public class Deck {
 
     public void shuffleTwo(){
 
-        while (deck_of_card.size()>1){
+        while (deck_of_card.size()>0){
             int random = (int) (Math.random() * deck_of_card.size());
             shuufled_deck_of_card.add(deck_of_card.remove(random));
         }
